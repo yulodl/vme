@@ -34,7 +34,12 @@ export default {
 
 .resume {
     .padding-5mm {
-        padding: 5mm;
+        padding: 0 5mm;
+    }
+
+    li,
+    p {
+        font-size: 14px;
     }
 }
 </style>
