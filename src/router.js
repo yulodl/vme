@@ -2,14 +2,11 @@
  * @Author: xiaodongyu
  * @Date 2019-12-23 23:41:33
  * @Last Modified by: xiaodongyu
- * @Last Modified time: 2019-12-24 00:30:05
+ * @Last Modified time: 2019-12-24 21:49:10
  */
 
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-
-import Home from './app/home';
-import Resume from './app/resume';
 
 Vue.use(VueRouter);
 
@@ -19,17 +16,17 @@ const router = new VueRouter({
         {
             name: 'home',
             path: '/',
-            component: Home,
+            component: () => import('./app/home')
         },
         {
             name: 'resume',
             path: '/resume',
-            component: Resume
+            component: () => import('./app/resume')
         }
     ]
 });
 
-router.beforeEach((from, to, next) => {
+router.beforeEach((to, from, next) => {
     document.title = to.name;
     next();
 });

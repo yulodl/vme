@@ -4,10 +4,9 @@
 
 <template>
     <div class="home">
-        <img
-            alt="Vue logo"
-            src="./assets/logo.png"
-        >
+        <router-link :to="{name: 'resume'}">
+            <img src="./assets/logo.png" alt="Vue logo">
+        </router-link>
         <hello-world msg="Welcome to Your Vue.js App" />
     </div>
 </template>
