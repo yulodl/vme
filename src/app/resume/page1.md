@@ -1,7 +1,7 @@
 ## 个人信息
 - 于晓冬 / 男 / 1991
-- 本科 / 中国人民大学 / 信息资源管理与信息系统 / 2008级
 - 手机：18515663215
+- 本科 / 中国人民大学 / 信息资源管理与信息系统 / 2008级 / CET-6
 - Email：yulodl@gmail.com
 - Github: https://github.com/yulodl 
 - 工作年限：7年
@@ -11,19 +11,31 @@
 ## 工作经历
 
 ##### 洋钱罐（高级前端 2017.7 ~ 至今）
+- 内部工具OA （前端React SSR -> SPA + 尝试App + 后端Java ）、Vue SPA 投票系统
+- 海外理财、现金贷业务的Vue SSR官网、ReactNative App、AngularJS SPA 后台、催收（迁移为 Vue SPA）
+- 公共类库@yqg/cli（构建工具）、@yqg/node（version, report，fallback 中间件）、@yqg/enum、yqg-guard
+
+负责公共类库的维护，指导业务迭代，实现海外i18n动态加载，实现Error Report，接入eureka等。
+
 
 ##### 华图图书（前端开发 2015.3 ~ 2017.6）
+- 使用React全家桶开发云网学习App的SSR官网（MaterialUI）、教师后台SPA（AntDesign ）、三国营SPA
+- 使用Native Javascript开发答题页 （JS Bridge）、推广活动Landing Page（Handlebars）
+- 使用ReactNative开发答题页、使用Node.js开发静态资源、音视频（ffmpeg）处理脚本
+
+负责选型、开发、构建、布署，夯实前端技术能力。
 
 ##### 软通动力（前端开发 2013.7 ~ 2015.2）
+加入IBM前端团队，使用Spine.js + dojo.js开发中行网银PC版。初步接触前端MVC，继续沉淀前端相关技能。
 
 ##### 同方鼎欣（Java Web 开发 2011.11 ~ 2013.6）
 从事Java Web相关项目的业务开发迭代，深入学习Java Web，学习使用HTML、CSS、JavaScript、jQuery等。
 
 ## 技能清单
-- `JavaScript HTML CSS Node.js Java .etc`
-- `Vue React ReactNative AngularJS jQuery Koa Express .etc`
-- `config axios ant-design eslint babel webpack .etc`
-- `vim git .etc`
+- `JavaScript HTML CSS Node.js SQL Java .etc`
+- `Vue React ReactNative AngularJS Koa Express Markdown Mustache Freemarker jQuery .etc`
+- `config axios ant-design(-vue) base-ui eslint babel webpack ffmpeg .etc`
+- `vim git regex .etc`
 
 ## 致谢
 
