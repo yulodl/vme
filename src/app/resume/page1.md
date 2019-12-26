@@ -12,7 +12,7 @@
 
 ##### 洋钱罐（高级前端 2017.7 ~ 至今）
 - 内部工具OA （前端React SSR -> SPA + 尝试App + 后端Java ）、Vue SPA 投票系统
-- 海外理财、现金贷业务的Vue SSR官网、ReactNative App、AngularJS SPA 后台、催收（迁移为 Vue SPA）
+- 海外理财、现金贷业务的Vue SSR官网、ReactNative App、AngularJS SPA 后台、催收（重构为 Vue SPA）
 - 公共类库@yqg/cli、@yqg/node、@yqg/report、@yqg/enum、yqg-guard、base-ui ect.
 
 负责公共类库的开发维护，指导业务迭代，实现海外i18n动态加载，实现Error Report，接入eureka等。
@@ -25,10 +25,10 @@
 负责选型、开发、构建、布署，夯实前端技术能力。
 
 ##### 软通动力（前端开发 2013.7 ~ 2015.2）
-加入IBM前端团队，使用Spine.js + dojo.js开发中行网银PC版。初步接触前端MVC，继续沉淀前端相关技能。
+加入IBM前端团队，使用Spine.js + dojo.js开发中行网银PC版。初步接触前端MVC，沉淀前端相关技能。
 
 ##### 同方鼎欣（Java Web 开发 2011.11 ~ 2013.6）
-从事Java Web相关项目的业务开发迭代，深入学习Java Web，学习使用HTML、CSS、JavaScript、jQuery等。
+从事Java Web相关项目的业务开发迭代，深入学习Java Web，并对前端技术产生浓厚兴趣。
 
 ## 技能清单
 - `JavaScript HTML CSS Node.js Shell SQL Java etc.`
