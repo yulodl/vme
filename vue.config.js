@@ -2,10 +2,13 @@
  * @Author: xiaodongyu
  * @Date 2019-12-23 22:53:15
  * @Last Modified by: xiaodongyu
- * @Last Modified time: 2019-12-24 22:30:03
+ * @Last Modified time: 2019-12-26 09:22:16
  */
 
 module.exports = {
+    // public path for github page
+    publicPath: process.env.NODE_ENV === 'production' ? '/vme/' : '/',
+
     configureWebpack: {
         module: {
             rules: [

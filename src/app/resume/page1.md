@@ -13,13 +13,12 @@
 ##### 洋钱罐（高级前端 2017.7 ~ 至今）
 - 内部工具OA （前端React SSR -> SPA + 尝试App + 后端Java ）、Vue SPA 投票系统
 - 海外理财、现金贷业务的Vue SSR官网、ReactNative App、AngularJS SPA 后台、催收（迁移为 Vue SPA）
-- 公共类库@yqg/cli（构建工具）、@yqg/node（version, report，fallback 中间件）、@yqg/enum、yqg-guard
+- 公共类库@yqg/cli、@yqg/node、@yqg/report、@yqg/enum、yqg-guard、base-ui ect.
 
-负责公共类库的维护，指导业务迭代，实现海外i18n动态加载，实现Error Report，接入eureka等。
-
+负责公共类库的开发维护，指导业务迭代，实现海外i18n动态加载，实现Error Report，接入eureka等。
 
 ##### 华图图书（前端开发 2015.3 ~ 2017.6）
-- 使用React全家桶开发云网学习App的SSR官网（MaterialUI）、教师后台SPA（AntDesign ）、三国营SPA
+- 使用React全家桶开发云网学习App的SSR官网（material-ui）、教师后台SPA（ant-design ）、三国营SPA
 - 使用Native Javascript开发答题页 （JS Bridge）、推广活动Landing Page（Handlebars）
 - 使用ReactNative开发答题页、使用Node.js开发静态资源、音视频（ffmpeg）处理脚本
 
@@ -32,10 +31,10 @@
 从事Java Web相关项目的业务开发迭代，深入学习Java Web，学习使用HTML、CSS、JavaScript、jQuery等。
 
 ## 技能清单
-- `JavaScript HTML CSS Node.js SQL Java .etc`
-- `Vue React ReactNative AngularJS Koa Express Markdown Mustache Freemarker jQuery .etc`
-- `config axios ant-design(-vue) base-ui eslint babel webpack ffmpeg .etc`
-- `vim git regex .etc`
+- `JavaScript HTML CSS Node.js Shell SQL Java etc.`
+- `Vue React ReactNative AngularJS Koa Express Markdown Mustache Freemarker jQuery etc.`
+- `config axios cytoscape ant-design(-vue) base-ui eslint babel webpack ffmpeg etc.`
+- `vim git regex http websocket sharedworker etc.`
 
 ## 致谢
 
