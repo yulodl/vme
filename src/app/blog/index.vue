@@ -21,7 +21,7 @@
             </a-menu>
         </a-layout-sider>
         <a-layout-content class="content">
-            <a-card>
+            <a-card class="card">
                 <router-view />
             </a-card>
         </a-layout-content>
@@ -52,7 +52,11 @@ export default {
     }
 
     .content {
-        padding: 20px;
+        padding: 30px;
+
+        .card {
+            min-height: 100%;
+        }
     }
 }
 </style>
