@@ -6,7 +6,6 @@
 - react(1k+) 比 react-dom(2w+) 代码量少很多
 - SyntheticEvent 比 nativeEvent 兼容性更好，为了提高性能会被复用，所以只能异步使用它的属性而不是整个对象
 
----
 ## TODO
 - hooks
 

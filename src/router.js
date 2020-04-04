@@ -2,7 +2,7 @@
  * @Author: xiaodongyu
  * @Date 2019-12-23 23:41:33
  * @Last Modified by: xiaodongyu
- * @Last Modified time: 2020-04-05 00:00:55
+ * @Last Modified time: 2020-04-05 22:01:27
  */
 
 import Vue from 'vue';
@@ -33,6 +33,10 @@ const router = new VueRouter({
                 name: 'react',
                 path: 'react',
                 component: () => import('./app/blog/react'),
+            }, {
+                name: 'vue',
+                path: 'vue',
+                component: () => import('./app/blog/vue'),
             }, {
                 name: 'js',
                 path: 'js',

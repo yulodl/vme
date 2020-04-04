@@ -21,7 +21,7 @@
             </a-menu>
         </a-layout-sider>
         <a-layout-content class="content">
-            <a-card class="card">
+            <a-card class="card markdown-body">
                 <router-view />
             </a-card>
         </a-layout-content>
@@ -29,6 +29,8 @@
 </template>
 
 <script type="text/babel">
+import 'github-markdown-css';
+
 export default {
     name: 'Blog',
 
