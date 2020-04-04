@@ -5,9 +5,11 @@
 <template>
     <div class="home">
         <router-link :to="{name: 'resume'}">
-            <img src="./assets/logo.png" alt="Vue logo">
+            <h3>Resume</h3>
         </router-link>
-        <hello-world msg="Welcome to Your Vue.js App" />
+        <router-link :to="{name: 'blog'}">
+            <h3>Blog</h3>
+        </router-link>
     </div>
 </template>
 
@@ -16,20 +18,12 @@ import HelloWorld from './component/hello-world';
 
 export default {
     name: 'Home',
-
-    components: {
-        HelloWorld
-    }
 };
 </script>
 
 <style lang="scss" rel="stylesheet/scss">
 .home {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
     margin-top: 60px;
+    text-align: center;
 }
 </style>

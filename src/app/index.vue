@@ -9,7 +9,10 @@
 <script type="text/babel">
 import Vue from 'vue';
 
-import router from '../router';
+import router from 'router';
+import Component from 'component';
+
+Vue.use(Component);
 
 export default {
     name: 'App',
