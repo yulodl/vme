@@ -5,14 +5,14 @@
 
 <template>
     <a-layout class="layout">
-        <a-layout-sider class="sider">
+        <a-layout-sider class="sider" theme="light" collapsible collapsedWidth="80">
             <a-menu
                 :default-selected-keys="[$route.name]"
-                theme="dark"
             >
                 <a-menu-item
                     v-for="blog in Object.keys($options.BlogMap)"
                     :key="blog"
+                    class="menu"
                 >
                     <router-link :to="{name: 'blog', params: {blog}}">
                         {{ blog }}
@@ -63,10 +63,18 @@ export default {
         top: 0;
         padding: 20px 0;
         height: 100vh;
+
+        .ant-menu-vertical {
+            border-right: none;
+
+            .ant-menu-item {
+                text-align: center;
+            }
+        }
     }
 
     .content {
-        padding: 30px;
+        padding: 15px;
 
         .card {
             min-height: 100%;
