@@ -4,7 +4,7 @@
 
 <template>
     <div class="home">
-        <router-link :to="{name: 'blog'}">
+        <router-link :to="{name: 'blog', params: {blog: 'react'}}">
             <h3>Blog</h3>
         </router-link>
         <router-link :to="{name: 'resume'}">

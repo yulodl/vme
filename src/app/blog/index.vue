@@ -11,18 +11,18 @@
                 theme="dark"
             >
                 <a-menu-item
-                    v-for="route in routes"
-                    :key="route.name"
+                    v-for="blog in Object.keys($options.BlogMap)"
+                    :key="blog"
                 >
-                    <router-link :to="route">
-                        {{ route.name }}
+                    <router-link :to="{name: 'blog', params: {blog}}">
+                        {{ blog }}
                     </router-link>
                 </a-menu-item>
             </a-menu>
         </a-layout-sider>
         <a-layout-content class="content">
             <a-card class="card markdown-body">
-                <router-view />
+                <div v-html="$options.BlogMap[$route.params.blog]" />
             </a-card>
         </a-layout-content>
     </a-layout>
@@ -31,13 +31,25 @@
 <script type="text/babel">
 import 'github-markdown-css';
 
+import ReactHtml from './md/react.md';
+import VueHtml from './md/vue.md';
+import JsHtml from './md/js.md';
+import NodeHtml from './md/node.md';
+
+
 export default {
     name: 'Blog',
 
-    computed: {
-        routes() {
-            return this.$router.options.routes.find(({name}) => name === 'blog').children;
-        }
+    BlogMap: {
+        react: ReactHtml,
+        vue: VueHtml,
+        js: JsHtml,
+        node: NodeHtml
+    },
+
+    beforeRouteUpdate(to, from, next) {
+        document.title = to.params.blog;
+        next();
     }
 };
 </script>

@@ -2,7 +2,7 @@
  * @Author: xiaodongyu
  * @Date 2019-12-23 23:41:33
  * @Last Modified by: xiaodongyu
- * @Last Modified time: 2020-04-05 22:01:27
+ * @Last Modified time: 2020-07-10 23:54:42
  */
 
 import Vue from 'vue';
@@ -26,28 +26,14 @@ const router = new VueRouter({
         },
         {
             name: 'blog',
-            path: '/blog',
-            component: () => import('./app/blog'),
-            redirect: {name: 'react'},
-            children: [{
-                name: 'react',
-                path: 'react',
-                component: () => import('./app/blog/react'),
-            }, {
-                name: 'vue',
-                path: 'vue',
-                component: () => import('./app/blog/vue'),
-            }, {
-                name: 'js',
-                path: 'js',
-                component: () => import('./app/blog/js'),
-            }]
+            path: '/blog/:blog',
+            component: () => import('./app/blog')
         }
     ]
 });
 
 router.beforeEach((to, from, next) => {
-    document.title = to.name;
+    document.title = to.params.blog || to.name;
     next();
 });
 
