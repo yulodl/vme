@@ -5,9 +5,9 @@
 
 <template>
     <a-layout class="layout">
-        <a-layout-sider class="sider" theme="light" collapsible collapsedWidth="80">
+        <a-layout-sider class="sider" theme="light" collapsible collapsed-width="80">
             <a-menu
-                :default-selected-keys="[$route.name]"
+                :default-selected-keys="[$route.params.blog]"
             >
                 <a-menu-item
                     v-for="blog in Object.keys($options.BlogMap)"
@@ -34,6 +34,7 @@ import 'github-markdown-css';
 import ReactHtml from './md/react.md';
 import VueHtml from './md/vue.md';
 import JsHtml from './md/js.md';
+import CssHtml from './md/css.md';
 import NodeHtml from './md/node.md';
 
 
@@ -44,6 +45,7 @@ export default {
         react: ReactHtml,
         vue: VueHtml,
         js: JsHtml,
+        css: CssHtml,
         node: NodeHtml
     },
 
