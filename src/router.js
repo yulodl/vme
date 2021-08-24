@@ -2,7 +2,7 @@
  * @Author: xiaodongyu
  * @Date 2019-12-23 23:41:33
  * @Last Modified by: xiaodongyu
- * @Last Modified time: 2020-07-10 23:54:42
+ * @Last Modified time: 2021-08-24 22:49:21
  */
 
 import Vue from 'vue';
@@ -12,7 +12,6 @@ Vue.use(VueRouter);
 
 const router = new VueRouter({
     base: process.env.BASE_URL,
-    mode: 'history',
     routes: [
         {
             name: 'home',

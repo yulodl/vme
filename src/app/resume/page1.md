@@ -1,21 +1,21 @@
-## 个人信息
+#### 个人信息
 - 于晓冬 / 男 / 1991
 - 手机：18515663215
-- 本科 / 中国人民大学 / 信息资源管理与信息系统 / 2008级 / CET-6
+- 本科 / 中国人民大学 / 信管 / 2008级 / CET-6
 - Email：yulodl@gmail.com
 - Github: https://github.com/yulodl 
-- 工作年限：7年
-- 期望职位：高级前端开发工程师
+- 工作年限：9年+
+- 期望职位：前端/全栈开发
 - 期望城市：北京
 
-## 工作经历
-
+#### 工作经历
 ##### 洋钱罐（高级前端 2017.7 ~ 至今）
-- 内部工具OA （前端React SSR -> SPA + 尝试App + 后端Java ）、Vue SPA 投票系统
-- 海外理财、现金贷业务的Vue SSR官网、ReactNative App、AngularJS SPA 后台、催收（重构为 Vue SPA）
-- 公共类库@yqg/cli、@yqg/node、@yqg/report、@yqg/enum、yqg-guard、base-ui ect.
+- 内部工具OA （前端React SSR -> SPA + 尝试App + 后端Java ）、Vue SPA 投票系统、语音&在线客服
+- 海外理财、现金贷业务的Vue SSR官网、ReactNative App、AngularJS SPA 后台、催收（重构为 Vue SPA）、电销
+-
+公共类库[@yqg/cli](https://www.npmjs.com/package/@yqg/cli)、[@yqg/vue](https://www.npmjs.com/package/@yqg/vue)、[@yqg/node](https://www.npmjs.com/package/@yqg/node)、[@yqg/report](https://www.npmjs.com/package/@yqg/report)、[@yqg/enum](https://www.npmjs.com/package/@yqg/enum)、[@yqg/resource](https://www.npmjs.com/package/@yqg/resource)、[@yqg/socket-client](https://www.npmjs.com/package/@yqg/socket-client)、[@yqg/worker-loader](https://www.npmjs.com/package/@yqg/worker-loader)、[@yqg/webpack-plugin](https://www.npmjs.com/package/@yqg/webpack-plugin) ect.
 
-负责公共类库的开发维护，指导业务迭代，实现海外i18n动态加载，实现Error Report，接入eureka等。
+负责公共类库的开发维护，指导业务迭代，实现海外i18n动态加载，实现Error Report，接入eureka微服务，接入socket.io刷新业务数据，接入配置中心等。
 
 ##### 华图图书（前端开发 2015.3 ~ 2017.6）
 - 使用React全家桶开发云网学习App的SSR官网（material-ui）、教师后台SPA（ant-design ）、三国营SPA
@@ -30,12 +30,12 @@
 ##### 同方鼎欣（Java Web 开发 2011.11 ~ 2013.6）
 从事Java Web相关项目的业务开发迭代，深入学习Java Web，并对前端技术产生浓厚兴趣。
 
-## 技能清单
-- `JavaScript HTML CSS Node.js Shell SQL Java etc.`
-- `Vue React ReactNative AngularJS Koa Express Markdown Mustache Freemarker jQuery etc.`
-- `config axios cytoscape ant-design(-vue) base-ui eslint babel webpack ffmpeg etc.`
-- `vim git regex http websocket sharedworker etc.`
+#### 熟悉的技能、框架、工具
+- `JavaScript HTML CSS Node.js Java C++ etc.`
+- `Vue React ReactNative AngularJS cytoscape ant-design(-vue) axios http websocket sharedworker jQuery etc.`
+- `Koa Express Freemarker config zookeeper eureka kafka redis socket.io etc.`
+- `vim git eslint babel webpack regex etc.`
 
-## 致谢
-
-感谢您花时间阅读我的简历，期待能有机会和您共事。
+#### 个人评价
+- 注重工作效率，重复繁琐的事情应该用一行代码或者一条命令让组件或者脚本完成
+- 工作稳重踏实，认真负责
