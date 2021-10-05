@@ -36,6 +36,8 @@ import VueHtml from './md/vue.md';
 import JsHtml from './md/js.md';
 import CssHtml from './md/css.md';
 import NodeHtml from './md/node.md';
+import BrowserHtml from './md/browser.md';
+import BigNumberHtml from './md/bignumber.md';
 
 
 export default {
@@ -46,7 +48,9 @@ export default {
         vue: VueHtml,
         js: JsHtml,
         css: CssHtml,
-        node: NodeHtml
+        node: NodeHtml,
+        browser: BrowserHtml,
+        bignumber: BigNumberHtml
     },
 
     beforeRouteUpdate(to, from, next) {
